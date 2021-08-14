@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Click to start the game</h1>
+      <button id="startgame">Start</button>
+    </div>
+    <button id="darkBtn" onclick="darkmode()"></button>
+    <div class="all fadeOut">
+      <p id="score">your tries: <span id="scorespan">0</span></p>
+      <div class="grid"></div>
+      <p id="gameover">
+        Make all the squares <span id="gameoverspan">purple!</span>
+      </p>
+    </div>
+    <div class="footer">
+      <p>Made in <span id="heart-sign">&#10084;</span> by sheesh</p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
